@@ -180,10 +180,7 @@ body{
     position: absolute;
     right: 40px;
   }
-  .parent{
-    position: absolute;
-    right: 20px;
-  }
+  
   /* CSS rules for devices between 320px and 480px */
 }
 
