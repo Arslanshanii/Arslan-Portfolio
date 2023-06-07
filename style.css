@@ -180,6 +180,9 @@ body{
     position: absolute;
     right: 40px;
   }
+  .parent{
+    display: block;
+  }
   /* CSS rules for devices between 320px and 480px */
 }
 
