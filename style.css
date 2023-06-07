@@ -180,11 +180,18 @@ body{
     position: absolute;
     right: 40px;
   }
+ 
   .parent{
+    
     display: grid;
-    place-items: center;
-
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 35%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
   }
+  /* 
   /* CSS rules for devices between 320px and 480px */
 }
 
